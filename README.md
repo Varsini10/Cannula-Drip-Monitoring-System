@@ -4,46 +4,46 @@ A smart healthcare project designed to monitor IV (saline) drip levels in real-t
 
 **📌 Features**
 
-Real-time Monitoring – Uses an Ultrasonic Sensor to track saline water levels.
+- Real-time Monitoring – Uses an Ultrasonic Sensor to track saline water levels.
 
-Smart Alerts – GSM module sends SMS notifications when IV levels are low.
+- Smart Alerts – GSM module sends SMS notifications when IV levels are low.
 
-Local Alert System – Buzzer alarm notifies nearby nurses for immediate action.
+- Local Alert System – Buzzer alarm notifies nearby nurses for immediate action.
 
-Improved Patient Care – Minimizes risk of air bubbles entering the cannula due to unnoticed IV depletion.
+- Improved Patient Care – Minimizes risk of air bubbles entering the cannula due to unnoticed IV depletion.
 
 **🛠️ Tech Stack**
 
-Microcontroller: Arduino
+- Microcontroller: Arduino
 
-Sensors & Modules: Ultrasonic Sensor, GSM Module, Buzzer
+- Sensors & Modules: Ultrasonic Sensor, GSM Module, Buzzer
 
-Programming Language: C/C++ (Arduino IDE)
+- Programming Language: C/C++ (Arduino IDE)
 
 **⚙️ Working Principle**
 
-The ultrasonic sensor continuously measures the saline water level in the IV bag.
+- The ultrasonic sensor continuously measures the saline water level in the IV bag.
 
-When the level reaches a critical threshold, the buzzer triggers an alert.
+- When the level reaches a critical threshold, the buzzer triggers an alert.
 
-Simultaneously, the GSM module sends an SMS to the assigned nurse/doctor.
+- Simultaneously, the GSM module sends an SMS to the assigned nurse/doctor.
 
-Continuous monitoring ensures timely intervention and better patient care.
+- Continuous monitoring ensures timely intervention and better patient care.
 
 **🚀 How to Use**
 
-Connect the Ultrasonic Sensor, GSM Module, and Buzzer to Arduino as per circuit diagram.
+- Connect the Ultrasonic Sensor, GSM Module, and Buzzer to Arduino as per circuit diagram.
 
-Upload the Arduino code from this repository using Arduino IDE.
+- Upload the Arduino code from this repository using Arduino IDE.
 
-Power the circuit and place the sensor above the IV bag.
+- Power the circuit and place the sensor above the IV bag.
 
-Configure GSM module with a valid SIM card to enable SMS alerts.
+- Configure GSM module with a valid SIM card to enable SMS alerts.
 
 **🌟 Impact**
 
-Reduces nurse workload by automating IV monitoring.
+- Reduces nurse workload by automating IV monitoring.
 
-Improves hospital efficiency through remote alerts.
+- Improves hospital efficiency through remote alerts.
 
-Enhances patient safety by preventing IV-related complications.
+- Enhances patient safety by preventing IV-related complications.
