@@ -1,4 +1,5 @@
 <h2>🔌 Circuit Connections </h2>
+
 **1. Ultrasonic Sensor (HC-SR04)**
 
 - VCC → Arduino 5V
